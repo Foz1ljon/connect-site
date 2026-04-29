@@ -6,7 +6,11 @@ import "./style.css";
 const routes = [
   {
     path: "/",
-    component: () => import("./App.vue"), // App.vue ni o'zini asosiy sahifa sifatida yuklaymiz
+    component: () => import("./Home.vue"), // App.vue ni o'zini asosiy sahifa sifatida yuklaymiz
+  },
+  {
+    path: "/privacy",
+    component: () => import("./Privacy.vue"), // Yangi sahifa
   },
 ];
 
